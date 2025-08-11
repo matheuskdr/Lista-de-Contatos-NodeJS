@@ -1,0 +1,30 @@
+{
+  "name": "lista-de-contatos-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/matheuskdr/Lista-de-Contatos-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/matheuskdr/Lista-de-Contatos-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuskdr/Lista-de-Contatos-NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "node --import=tsx --watch src/server.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
